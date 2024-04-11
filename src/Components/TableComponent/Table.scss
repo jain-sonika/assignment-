@@ -1,0 +1,95 @@
+// DomainList.scss
+
+// table {
+//     border-collapse: collapse;
+//     width: 100%;
+//     margin: 0 auto;
+    .custom-table {
+        position: fixed;
+        width: 70%; // Adjust the width to make it 30% smaller
+        border-collapse: collapse;
+        // margin-top: 5px;
+        margin-left: 80px;
+        margin-right: 5px;
+        margin-bottom: 150px;
+        
+        th, td {
+            
+            padding: 5px;
+            text-align: left;
+            border: 1px solid #ddd;
+            margin-right: 5px; /* Add margin between columns */
+        }
+        
+        th {
+          
+           // background-color: #f2f2f2;
+            color: grey;
+        }
+        
+
+    // th {
+    //     background-color: #f2f2f2;
+    //     color: black;
+    // }
+
+    img {
+        width: 20px;
+        height: 20px;
+    }
+
+    th[scope="row"] {
+        background-color: #f8f8f8;
+    }
+}
+
+.container {
+    max-width: 800px;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+a {
+    color: grey;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.new-row {
+    background-color: #f2f2f2;
+            color: rgb(70, 66, 66);
+  }
+
+a:hover {
+    color: dodgerblue;
+}
+.expand-icon {
+    margin-left: 20px;
+    vertical-align: middle;
+    width: 20px; // Set the width of the expand icon
+  height: 20px;
+  }
+  
+  
+  
+  
+  th input[type="checkbox"] {
+    margin-right: 7px; // Add margin to the right of the checkbox
+  }
+  
+  th .expand-icon {
+    width: 10px; // Set the width of the expand icon
+    height: 10px; // Set the height of the expand icon
+  }
+  
+  .new-row-button {
+    background-color: transparent; // Set background color to transparent
+    border: none; // Remove border initially
+    cursor: pointer; // Set cursor to pointer
+    margin-left: 50px;
+  
+    &:hover {
+      border: 1px solid black; // Add border on hover
+    }
+  }
